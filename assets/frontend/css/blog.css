@@ -1,0 +1,281 @@
+/*-- Google Font --*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Poppins:300,400,500,600,700,800");
+
+/*-- Common Style --*/
+*,
+*::after,
+*::before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #444444;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+
+
+h3,
+.h3 {
+    font-size: 24px;
+    line-height: 30px;
+}
+
+h4,
+.h4 {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+
+
+
+/*-- 
+    Common CSS
+-----------------------------------------*/
+.fix {
+    overflow: hidden;
+}
+
+.clear {
+    clear: both;
+}
+
+.section {
+    float: left;
+    width: 100%;
+}
+
+/*-- 
+
+
+/*-- Container Width For Mobile Device --*/
+@media only screen and (max-width: 767px) {
+    .container {
+        width: 450px;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .container {
+        width: 100%;
+    }
+}
+
+/*-- 
+    Margin & Padding
+-----------------------------------------*/
+
+/*-- Margin Bottom --*/
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+/*-- 
+
+/*--
+    Main Wrapper
+-----------------------------------------*/
+#main-wrapper {
+    position: relative;
+}
+
+
+
+/*----------------------------------------*/
+/*  6.  Blog & Blog Details
+/*----------------------------------------*/
+/*-- Single Post --*/
+.single-blog {
+    border: 1px solid #f1f1f1;
+    float: left;
+    width: 100%;
+    padding: 20px;
+}
+
+.single-blog .blog-wrap .meta {
+    display: block;
+    margin-bottom: 8px;
+    /*-- Meta Item --*/
+}
+
+.single-blog .blog-wrap .meta .meta-item {
+    display: block;
+    float: left;
+    font-size: 13px;
+    letter-spacing: 0.75px;
+    line-height: 30px;
+    font-family: "Open Sans", sans-serif;
+    margin-left: 20px;
+    /*-- Category --*/
+}
+
+.single-blog .blog-wrap .meta .meta-item i {
+    font-size: 16px;
+    color: #492A60;
+    margin-right: 10px;
+    line-height: 30px;
+}
+
+.single-blog .blog-wrap .meta .meta-item img {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #e4e4e4;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+
+
+.single-blog .blog-wrap .meta .meta-item.view {
+    float: right;
+}
+
+.single-blog .blog-wrap .meta .meta-item.comments {
+    float: right;
+}
+
+.single-blog .blog-wrap .meta a:hover {
+    color: #492A60;
+}
+
+.single-blog .blog-wrap .title {
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 40px;
+    margin-bottom: 16px;
+}
+
+.single-blog .blog-wrap .title a {
+    color: #444444;
+}
+
+.single-blog .blog-wrap .image {
+    margin-bottom: 15px;
+}
+
+.single-blog .blog-wrap .image img {
+    width: 100%;
+}
+
+.single-blog .blog-wrap .content p {
+    margin-bottom: 30px;
+    display: block;
+    float: left;
+}
+
+.single-blog .blog-wrap .content p span {
+    line-height: 32px;
+    color: #444444;
+    margin-bottom: 20px;
+}
+img.float-left.pr-1.st {
+    max-width: 350px;
+    height: 450px;
+}img.float-right.rr {
+    width: 550px;
+    height: 270px;
+}
+.single-blog .blog-wrap .content span.italic {
+    line-height: 32px;
+    color: #444444;
+    margin-bottom: 20px;
+}
+
+.single-blog .blog-wrap .content ol {
+    list-style: decimal inside;
+}
+
+.single-blog .blog-wrap .content .dropcap {
+    display: block;
+}
+
+.single-blog .blog-wrap .content .dropcap::first-letter {
+    font-size: 100px;
+    float: left;
+    display: block;
+    font-weight: 800;
+    color: #444444;
+    padding: 8px 10px 5px 0;
+}
+
+
+.single-blog .blog-wrap .content > img {
+    margin-bottom: 30px;
+    max-width: 100%;
+}
+
+.post-comment-form label {
+    display: block;
+    line-height: 18px;
+}
+
+.post-comment-form label sup {
+    color: #492A60;
+}
+
+.post-comment-form input {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #f1f1f1;
+    line-height: 24px;
+    padding: 7px 15px;
+}
+
+.post-comment-form input[type="submit"] {
+    width: auto;
+    border-radius: 5px;
+    background-color: #492A60;
+    color: #ffffff;
+    text-transform: capitalize;
+    border: none;
+    padding: 8px 30px;
+}
+
+.post-comment-form input[type="submit"]:focus {
+    border: none;
+}
+
+.post-comment-form input:focus {
+    border-color: #00c8fa;
+}
+
+.post-comment-form textarea {
+    width: 100%;
+    height: 100px;
+    resize: none;
+    border: 1px solid #f1f1f1;
+    line-height: 24px;
+    padding: 7px 15px;
+}
+
+.post-comment-form textarea:focus {
+    border-color: #00c8fa;
+}

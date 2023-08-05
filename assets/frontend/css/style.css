@@ -1,0 +1,3255 @@
+/*-------Common CSS-----------------*/
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body {
+    /* font-family: 'Titillium Web', sans-serif !important; */
+    font-family: 'Ubuntu', sans-serif !important;
+    background: #fafafa;
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/body-img.png') !important;
+}
+
+hr {
+    width: 40%;
+    margin: auto;
+}
+
+input.form-control.contact-form-text {
+    margin: 8px;
+}
+
+.input-group input {
+    height: 45px !important;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #492A60 !important;
+}
+
+.card-body {
+    padding: .5rem !important;
+}
+
+.bottom-logo-mobile img {
+    width: 50px;
+}
+
+.card img.round {
+    transition: transform .2s;
+}
+
+h5.card-title {
+    font-size: 14px !important;
+}
+
+p.card-text.text-center.hov {
+    font-size: 14px;
+}
+
+.card:hover img.round {
+    transform: scale(1.1);
+}
+
+.card-title {
+    color: #616161 !important;
+}
+
+
+i.fa.fa-lightbulb-o {
+    font-size: 32px;
+}
+
+.card:hover p.hov {
+    color: #492A60;
+    font-weight: 700;
+}
+
+section.feature-section {
+    margin-bottom: 50px;
+}
+
+.w-80 {
+    max-width: 80%;
+    margin: auto;
+}
+
+.card-header {
+    padding: 0 !important;
+    margin-bottom: 10px !important;
+    background-color: rgba(0, 0, 0, .03);
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+}
+
+.card:hover h5.brand-title {
+    color: #492A60;
+}
+
+.card:hover p.news-text {
+    color: #000000;
+}
+
+.card.news-text p:hover {
+    color: #000000;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+.text-muted {
+    color: #492A60 !important;
+}
+
+.rose {
+    color: #492A60;
+    font-size: 12px;
+}
+
+.btn-info {
+    border: 0.5px solid !important;
+}
+
+/*------Top Bar CSS----*/
+.main-menu {
+    background: #ffffff;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    width: 100%;
+    transition: top .6s;
+    z-index: 999;
+    color: #ffffff;
+    padding: 10px 0;
+}
+
+.main-menu.animate {
+    top: -140px;
+}
+
+.main-menu.sticky {
+    top: 0;
+    z-index: 99;
+}
+
+/*------Top Bar CSS----*/
+
+.form-control {
+    border: 1px solid #492A60;
+}
+
+.form-control:focus {
+    border-color: #492A60;
+    box-shadow: #492A60;
+}
+
+select.browser-default.custom-select.select.s-1 {
+    height: 49px;
+}
+
+input.form-control.first {
+    border: 1px solid #492A60;
+}
+
+.contact-form-text.first:focus {
+    box-shadow: 0 0 10px 4px #492A60;
+}
+
+.top-bar {
+    border-bottom: 1px solid #eee;
+}
+
+.logo img {
+    height: 100%;
+}
+
+.social-icon ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.social-icon ul li {
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.social-icon ul li a {
+    background-color: #fff;
+    color: #492A60;
+    padding: 20px;
+    font-size: 25px;
+    transition: .5s;
+    text-align: center;
+    border-radius: 99%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .social-icon ul li a:hover {
+    background-color: #492A60;
+    color: #ffffff !important;
+} */
+
+.social-icon ul li a:hover {
+    color: #492A60;
+}
+
+.social-icon {
+    margin-top: 12px;
+}
+
+button.btn.btn-default {
+    height: 58px;
+    width: 60px;
+}
+
+
+
+
+
+
+/*----Carosul CSS----*/
+span.carousel-control-prev-icon {
+    display: none;
+}
+
+span.carousel-control-next-icon {
+    display: none;
+}
+
+.carousel-indicators .active {
+    background-color: #492A60 !important;
+}
+
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    width: 100%;
+}
+
+.carousel-caption {
+    bottom: 220px;
+}
+
+.carousel-caption h5 {
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.carousel-caption h5 p {
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.carousel-caption a {
+    text-transform: uppercase;
+    background: #262626;
+    padding: 10px 30px;
+    display: inline-block;
+    color: #ffffff;
+    margin-top: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+/*-----------All Header Text CSS-----------*/
+
+section.all-header {
+    color: #24272c;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 10px 0;
+    font-family: sans-serif;
+}
+
+
+
+
+
+/*-----------Browes CSS-----------*/
+
+
+h5.brand-title {
+    font-size: 14px;
+    margin: 0;
+}
+
+img.card-img-top.round {
+    width: 100px;
+    margin: auto;
+}
+
+h5.card-title {
+
+    margin-top: 0px !important;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.browes-area {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 80px 0;
+    box-shadow: 10px 10px 8px #888888;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.browes img {
+    width: 70px;
+    margin: auto;
+    display: block;
+}
+
+.browes p {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    color: #9fb9ca;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.view-more-btn a {
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.view-more-btn {
+    text-transform: uppercase;
+    background: #262626;
+    padding: 10px 30px;
+    display: inline-block;
+    color: #ffffff;
+    margin-top: 15px;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+
+.view-more-btn:hover {
+    border-bottom: 5px solid #888888;
+}
+
+/*-----------Feature CSS-----------*/
+.cardTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cardTitle p {
+    margin-bottom: 0;
+}
+
+.ratingStars {
+    display: flex;
+}
+
+.ratingAmount {
+    font-size: 14px;
+}
+
+.cardTitle p {
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.footerArea {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.stock {
+
+    color: rgb(47, 114, 2);
+}
+
+
+h5.feature-title {
+    color: #1f0101;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: sans-serif;
+    margin-bottom: 15px;
+}
+
+img.feature {
+    height: 140px;
+}
+
+select.browser-default.custom-select.select.sho-serch {
+    height: 50px;
+    font-size: 14px;
+}
+
+button.btn.btn-danger.btn-lg.select-q.sho-serch {
+    height: 50px;
+    font-size: 10px;
+}
+
+input.contact-form-btn:hover {
+    background: #492A60;
+    color: #000000;
+}
+
+.card img {
+    transition: transform .2s;
+}
+
+.card img:hover {
+    transform: scale(1.1);
+}
+
+.feature-area {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 80px 0;
+    box-shadow: 10px 10px 8px #888888;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.list-group-item.active {
+    z-index: 2;
+    color: #492A60 !important;
+    background-color: #ffffff !important;
+    border-color: #492A60 !important;
+}
+
+a.list-group-item h4 {
+    color: #492A60 !important;
+}
+
+a.list-group-item p {
+    color: #492A60 !important;
+}
+
+.feature-box {
+    border: 2px solid #492A60;
+    padding: 10px 15px;
+}
+
+.feature-box img {
+    width: 100px;
+    margin: auto;
+}
+
+.feature-box h4 {
+    color: #492A60;
+    font-size: 15px;
+    font-weight: 400;
+
+}
+
+.feature-box p {
+    width: 90%;
+    margin: auto;
+    font-size: 14px;
+    color: #ddcfcc;
+    font-weight: 300;
+}
+
+.card:hover p {
+    color: #492A60;
+}
+
+.feature-box h3 {
+    color: #492A60;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+.feature-box a {
+    color: #492A60;
+    border: 2px solid #492A60;
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*-------Get CSS Start--------*/
+
+.get-bg {
+    background-image: url(../images/slider1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 250px;
+    position: relative;
+    z-index: 1;
+}
+
+.get-bg:after {
+    position: absolute;
+    background: #000;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: .6;
+    z-index: -1;
+    content: '';
+}
+
+/*-------Get CSS End--------*/
+
+/*----News CSS----*/
+p.news-text {
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #616161;
+}
+
+/*----Budght CSS----*/
+img.bike-fea {
+    height: 180px;
+}
+
+/*----Comparition CSS----*/
+.col-md-6.left {
+    border-right: 2px solid #492A60;
+    height: 130px;
+}
+
+a.nav-link.active {
+    border: 1px solid #492A60 !important;
+    font-family: sans-serif !important;
+}
+
+.buddged a.nav-link {
+    color: #616161 !important;
+}
+
+.padd-100 {
+    text-align: right;
+}
+
+p.comparison-price {
+    font-weight: 500;
+    font-size: 16px;
+    margin: 0;
+    width: 100%;
+    font-family: sans-serif;
+    color: #616161;
+}
+
+p.comparison-name {
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 10px;
+    width: 100%;
+    font-family: sans-serif;
+    color: #492A60;
+}
+
+img.compa {
+    min-height: 130px;
+}
+
+a.btn.btn-primary.btn-outline-danger.btto {
+    margin-left: 40px;
+    margin-bottom: 6px;
+    font-size: 12px;
+}
+
+.btn-outline-danger:hover {
+    color: #ffffff !important;
+    background-color: #492A60 !important;
+    border-color: #492A60 !important;
+}
+
+.btn-outline-danger {
+    color: #492A60 !important;
+    background-color: transparent;
+    background-image: none;
+    border-color: #492A60 !important;
+}
+
+.btn-outline-danger {
+    color: #492A60 !important;
+    background-color: transparent;
+    background-image: none;
+    border-color: #492A60 !important;
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #492A60 !important;
+    border-color: #492A60 !important;
+}
+
+.card {
+    margin: 2px auto;
+}
+
+img.img-vs {
+    width: 30px;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    margin-left: -200px;
+}
+
+.btto {
+    display: inline-block;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+img.new {
+    min-height: 173px;
+}
+
+/*----Review CSS----*/
+
+.banner-form input {
+    padding: 5px 33px;
+    color: #fff;
+    border: 1px solid #492A60;
+    border-radius: 5px;
+}
+
+.banner-btn {
+    color: #000;
+    background-color: #fff;
+}
+
+input.banner-btn {
+    color: #000;
+}
+
+.review-area {
+    text-align: center;
+    padding-bottom: 50px;
+    box-shadow: 10px 10px 8px #888888;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.greay {
+    background-color: #fff;
+    color: #000 !important;
+}
+
+.review-head {
+    font-size: 22px;
+    font-weight: 700;
+    font-family: sans-serif;
+    border-bottom: 2px solid #492A60;
+    width: 20%;
+    margin: auto;
+}
+
+.single-review img {
+    width: 50px;
+    margin: auto;
+}
+
+.single-review p {
+    color: #343a40;
+    font-size: 14px;
+    font-weight: 300;
+    width: 90%;
+    margin: auto;
+
+}
+
+.single-review p.mark {
+    color: #492A60;
+    display: initial;
+    padding: 5px 5px;
+    font-weight: 600;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+
+.mark {
+    background-color: transparent !important;
+}
+
+i.fa.fa-star {
+    margin-left: -13px;
+    opacity: 0;
+}
+
+i.fa.fa-star:hover {
+    opacity: 1;
+}
+
+.width-search {
+    width: 520px !important;
+}
+
+.single-review a {
+    color: cornflowerblue;
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.single-review a:hover {
+    color: #492A60;
+}
+
+.single-review h4 {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 8px;
+}
+
+.single-review a {
+    color: #616161;
+}
+
+
+/*-------Compare CSS--------*/
+button.btn.btn-link.red {
+    color: #492A60;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+td i {
+    color: #492A60;
+}
+
+/*-------Footer CSS--------*/
+
+
+.footer-section {
+    background-color: #272727
+}
+
+.bottom-menu {
+    padding-bottom: 10px;
+}
+
+.bottom-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.bottom-menu ul li {
+    display: inline-block;
+    border-right: 1px solid #ccc;
+}
+
+.bottom-menu ul li a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    padding: 0 10px;
+    transition: .5s;
+}
+
+.bottom-menu ul li a:hover {
+    color: #492A60;
+}
+
+.bottom-text ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.bottom-text ul li {
+    display: inline-block;
+    border-right: 1px solid #ccc;
+}
+
+ul li:last-child {
+    border-right: 0;
+}
+
+.bottom-text ul li a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    padding: 0 10px;
+    transition: .5s;
+}
+
+.bottom-text ul li a:hover {
+    color: #492A60;
+}
+
+.icon ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.icon ul li {
+    display: inline-block;
+}
+
+.icon ul li a {
+    color: #fff;
+    background: #492A60;
+    font-size: 18px;
+    font-weight: 700;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50px;
+    display: inline-block;
+    padding: 0 7px;
+    margin: 0 7px;
+    transition: .5s;
+}
+
+.icon ul li a:hover {
+    background: #fff;
+    color: #492A60;
+}
+
+.icon {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.bottom-logo img {
+    width: 150px;
+}
+
+/*-----------comment  Css-----------*/
+
+.contact-section-area {
+    margin: 20px 0;
+    margin-bottom: 80px;
+}
+
+/*-----------contact page Css-----------*/
+
+.contact-section {
+
+    height: 100vh;
+}
+
+.contact-section h1 {
+    text-align: center;
+    color: #000;
+}
+
+.border {
+    width: 100px;
+    height: 10px;
+    background: #000;
+    margin: 40px auto;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.input-group-append {
+    margin-left: -9px !important;
+    height: 45px !important;
+    margin-top: 8px !important;
+}
+
+.contact-form-text {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 1px solid #492A60;
+    /*background: #fff;*/
+    padding: 20px 40px;
+    outline: none;
+    color: #492A60;
+    transition: 0.5s;
+}
+
+input::placeholder {
+    color: #492A60;
+
+}
+
+.contact-form-text:focus {
+    box-shadow: 0 0 10px 4px #492A60;
+}
+
+textarea.contact-form-text {
+    resize: none;
+    height: 120px;
+}
+
+.contact-form-btn {
+    float: right;
+    border: 0;
+    background: #492A60;
+    color: #fff;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+
+
+/*-----review-Page----*/
+
+img.img-fluid.head-img {
+    height: 60px;
+}
+
+img.card-img.c-img {
+    height: 110px;
+}
+
+.rating ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.rating ul li {
+    display: inline-block;
+}
+
+.rating ul li a {
+    font-size: 25px;
+    padding: 0 5px;
+    color: #492A60;
+}
+
+.rating {
+    margin-top: 16px;
+}
+
+/*-----Brand Page----*/
+
+.branding-header.text-center h2 {
+    color: #001726;
+    margin: 20px 0;
+}
+
+.branding-area {
+    background-color: #ffffff;
+    padding: 20px 0;
+}
+
+.branding-area p {}
+
+.bike {
+    text-align: center;
+}
+
+.bike img {
+    height: 200px;
+}
+
+.text {
+    text-align: left;
+    margin-top: 50px;
+}
+
+.text h3 {
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+ul.branding-menu {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    color: #ccc;
+}
+
+ul.branding-menu li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+ul.branding-menu li a {
+    color: #c1c1c1;
+    display: block;
+    padding: 5px 10px;
+    font-weight: 300;
+}
+
+.gap {
+    padding: 5px 0;
+}
+
+
+
+
+/*-----Blog Page CSS-----*/
+
+h5.card-title {
+    font-size: 18px;
+    margin-top: 10PX;
+    color: #492A60;
+}
+
+.card {
+    overflow: hidden
+}
+
+.card img {
+    transition: all .5s ease;
+}
+
+.card:hover img {
+    transform: scale(1.1);
+}
+
+.inner {
+    overflow: hidden;
+}
+
+.inner img {
+    transition: all 1.5s ease;
+}
+
+.inner:hover img {
+    transform: scale(1.5);
+}
+
+.blog-meta {
+    font-size: 14px;
+    padding: px;
+    text-align: left;
+}
+
+.card span {
+    float: right;
+    font-size: 12px;
+    color: #492A60;
+}
+
+.blog-white {
+    background-color: #fff;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+.blog-area {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.blog-area h2 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.blog-area h2:after {
+    content: '';
+    width: 100px;
+    height: 4px;
+    margin: auto;
+    margin-top: 20px;
+    display: block;
+    background: #ccc;
+}
+
+.blog-area p {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+p.card-text {
+    width: 100%;
+}
+
+
+
+
+/*-----Single Blog Page CSS-----*/
+
+.page-header h3 {
+    margin-bottom: 15px;
+    padding: 0px;
+}
+
+.page-header h3 small {
+    float: right;
+    font-weight: 300;
+    font-size: 14px;
+    margin-bottom: 0ppx;
+    padding: 0px;
+}
+
+img.featureImg {
+    margin-bottom: 20px;
+}
+
+.panel-body {
+    text-align: justify;
+}
+
+
+
+/*-----About us page css-----*/
+
+.about-us-area {
+    padding-top: -100px;
+}
+
+
+section.about-us-area h2 {
+    font-size: 42px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-top: 10px;
+}
+
+section.about-us-area h2:after {
+    content: '';
+    background: #ccc;
+    display: block;
+    width: 100px;
+    height: 3px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.tumi {
+    width: 90%;
+    margin: auto;
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+img.about-us-img {
+    width: 200px;
+    height: 200px;
+    line-height: 150px;
+    border-radius: 50%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section.about-us-area p {
+    width: 80%;
+    margin: auto;
+    text-align: justify''
+}
+
+.about-us-area h4 {
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 50px;
+}
+
+.sa {
+    width: 70%;
+    margin: auto;
+}
+
+.about-us-area h4 span {
+    color: cornflowerblue;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    display: block;
+    margin-top: 5px;
+    letter-spacing: 3px;
+}
+
+
+/*-----all scooter-----*/
+img.card-img-top.scooter-img {
+    margin-left: 40px;
+    padding-left: 20px;
+}
+
+/*-----Specification page css-----*/
+.c-i {
+    height: 300px;
+    margin: auto;
+}
+
+.c-i img {
+    height: 300px;
+}
+
+.item-header h2 {
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.col-md-12.text-center.white-bg {
+    background-color: #fff;
+}
+
+.list-group {
+    margin-top: 20px;
+}
+
+.black-bg {
+    background-color: #492A60;
+    color: #fff;
+    margin: 20px 0;
+    padding: 10px 0;
+}
+
+.black-bg h3 {
+    display: inline-block;
+    font-size: 18px;
+}
+
+.disclaimer {
+    background-color: #492A60;
+    padding: 10px 10px;
+}
+
+.review.white-bg {
+    background-color: #fff;
+    padding: 10px 10px;
+}
+
+.review-head h4 {
+    font-size: 18px;
+}
+
+.review-head p {
+    font-size: 14px;
+}
+
+.review-body p {
+    font-size: 14px;
+}
+
+div#bike-review {
+    margin-bottom: 20px;
+}
+
+.sectionTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-md-12.text-left.disclaimer h4 {
+    font-size: 18px;
+}
+
+.col-md-12.text-left.disclaimer p {
+    font-size: 14px;
+}
+
+tr,
+th {
+    font-size: 14px;
+}
+
+.pa {
+    padding-top: 93px;
+}
+
+/*-----City page-----*/
+
+ul.price-bi {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul.price-bi li {
+    padding: 10px 0;
+}
+
+input[type="radio"] {
+    margin-right: 15px;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+label {
+    vertical-align: middle;
+}
+
+.btn-link {
+    color: #492A60 !important;
+}
+
+/*-----service page-----*/
+
+img.city-img {
+    width: 100px;
+    margin: auto;
+    padding-top: 10px;
+}
+
+p.pp-city {
+    font-weight: 700;
+    margin: 0;
+    font-size: 18px;
+}
+
+.city p {
+    font-size: 15px;
+    margin: 0;
+}
+
+/*-----Landing page-----*/
+
+.main {
+    background-image: url(frontend/images/slider5.html);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    text-align: left;
+    padding: 220px 0 200px;
+}
+
+.main h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 2.6em;
+    color: #dcdde1;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.main p {
+    margin-top: 1em;
+    padding: o;
+    font-size: 1em;
+    color: #dcdde1;
+}
+
+/*---------All-Bike-CSS-----*/
+select.browser-default.custom-select.select {
+    border: 1px solid #492A60;
+    height: 65px;
+    font-size: 20px;
+    outline-color: #492A60;
+
+}
+
+.bg {
+
+    background-image: url(../images/sell-banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+    position: relative;
+    z-index: 1;
+}
+
+.bg:after {
+    content: '';
+    top: 0;
+    left: 0;
+    background: #000;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: absolute;
+    opacity: .5;
+}
+
+/*---------bg-review-CSS-----*/
+.bg-review {
+
+    background-image: url(../images/bg-reviews.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+    position: relative;
+    z-index: 1;
+}
+
+.bg-review:after {
+    content: '';
+    top: 0;
+    left: 0;
+    background: #000;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: absolute;
+    opacity: .5;
+}
+
+/*---------bg-used-CSS-----*/
+.bg-used {
+
+    background-image: url(../images/slider4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+    position: relative;
+    z-index: 1;
+}
+
+.bg-used:after {
+    content: '';
+    top: 0;
+    left: 0;
+    background: #000;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: absolute;
+    opacity: .5;
+}
+
+/*---------bg-service-CSS-----*/
+.bg-service {
+
+    background-image: url(../images/slider1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+    position: relative;
+    z-index: 1;
+}
+
+.bg-service:after {
+    content: '';
+    top: 0;
+    left: 0;
+    background: #000;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: absolute;
+    opacity: .5;
+}
+
+/*---------bg-sell-bike-CSS-----*/
+.bg-sell-bike {
+
+    background-image: url(../images/slider5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+    position: relative;
+    z-index: 1;
+}
+
+.bg-sell-bike:after {
+    content: '';
+    top: 0;
+    left: 0;
+    background: #000;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: absolute;
+    opacity: .5;
+}
+
+/*---------bg-scotter-CSS-----*/
+.bg-scotter {
+
+    background-image: url(../images/bg-scooret.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+    position: relative;
+    z-index: 1;
+}
+
+.bg-scotter:after {
+    content: '';
+    top: 0;
+    left: 0;
+    background: #000;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: absolute;
+    opacity: .5;
+}
+
+/*---------bg-l-scoter-CSS-----*/
+.bg-l-scoter {
+
+    background-image: url(../images/bg-l-scoter.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+    position: relative;
+    z-index: 1;
+}
+
+.bg-l-scoter:after {
+    content: '';
+    top: 0;
+    left: 0;
+    background: #000;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: absolute;
+    opacity: .5;
+}
+
+/*---------bg-bike-CSS-----*/
+.bg-bike {
+
+    background-image: url(../images/slider2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+    position: relative;
+    z-index: 1;
+}
+
+.bg-bike:after {
+    content: '';
+    top: 0;
+    left: 0;
+    background: #000;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: absolute;
+    opacity: .5;
+}
+
+/*---------bg-l-bike-CSS-----*/
+.bg-l-bike {
+
+    background-image: url(../images/slider5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+    position: relative;
+    z-index: 1;
+}
+
+.bg-l-bike:after {
+    content: '';
+    top: 0;
+    left: 0;
+    background: #000;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: absolute;
+    opacity: .5;
+}
+
+/*---------bg-u-bike-CSS-----*/
+.bg-u-bike {
+
+    background-image: url(../images/slider6.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+    position: relative;
+    z-index: 1;
+}
+
+.bg-u-bike:after {
+    content: '';
+    top: 0;
+    left: 0;
+    background: #000;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: absolute;
+    opacity: .5;
+}
+
+/*---------bg-b-bike-CSS-----*/
+.bg-b-bike {
+
+    background-image: url(../images/slider4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+    position: relative;
+    z-index: 1;
+}
+
+.bg-b-bike:after {
+    content: '';
+    top: 0;
+    left: 0;
+    background: #000;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: absolute;
+    opacity: .5;
+}
+
+/*---------bg-e-bike-CSS-----*/
+.bg-e-bike {
+
+    background-image: url(../images/bg-elictric.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+    position: relative;
+    z-index: 1;
+}
+
+.bg-e-bike:after {
+    content: '';
+    top: 0;
+    left: 0;
+    background: #000;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: absolute;
+    opacity: .5;
+}
+
+/*---------bg-u-scooter-CSS-----*/
+.bg-u-scooter {
+
+    background-image: url(../images/bg-scooret.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+    position: relative;
+    z-index: 1;
+}
+
+.bg-u-scooter:after {
+    content: '';
+    top: 0;
+    left: 0;
+    background: #000;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: absolute;
+    opacity: .5;
+}
+
+/*---------bg-offer-CSS-----*/
+.bg-offer {
+
+    background-image: url(../images/bg-offer.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+    position: relative;
+    z-index: 1;
+}
+
+.bg-offer:after {
+    content: '';
+    top: 0;
+    left: 0;
+    background: #000;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: absolute;
+    opacity: .5;
+}
+
+button.btn.btn-danger.btn-lg.select-q {
+    height: 65px;
+}
+
+section.slide-section h2 {
+    color: #fff;
+    margin-top: 100px;
+    width: 80%;
+    line-height: 64px;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.brand-section img {
+    width: 90px;
+    margin: auto;
+}
+
+
+
+.brand-section .col-md-2 {
+    margin: 0;
+    padding: 0;
+}
+
+.card-body ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.card-body ul li {
+    display: inline-block;
+}
+
+.rating .fa-star {
+    margin-left: -23px !important;
+}
+
+.card-body ul li a {
+    color: #492A60;
+    font-size: 14px;
+    padding: 5px 5px;
+    line-height: 28px;
+}
+
+button.btn.btn-danger.btn-lg.select-q.move {
+    margin-top: 16px;
+}
+
+/*-------Latest-Bike CSS--------*/
+.latest-bike-title {
+    color: #616161;
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.coll i {
+    color: #492A60;
+    padding-left: 15px;
+    font-size: 22px;
+    /* margin-bottom: 1px; */
+}
+
+.coll {
+    color: #492A60;
+    font-size: 20px;
+}
+
+.row.p-nai .col-md-4 {
+    padding: 3px;
+}
+
+img.add-1 {
+    width: 100%;
+    height: 100px;
+    margin: auto;
+}
+
+img.p-b {
+    width: 65px;
+    margin: auto;
+}
+
+.col-md-4.c-no {
+    margin: 0;
+    padding: 0px;
+}
+
+.card-bg {
+    background: #fff;
+    padding: 5px;
+}
+
+.card-bg .row {
+    width: 350px;
+    margin: auto;
+}
+
+.no-mar {
+    margin: 0;
+    padding: 0;
+}
+
+.add img {
+    max-width: 397px;
+    margin: auto;
+    padding: 10px 0;
+}
+
+img.img-sss {
+    height: 100%;
+}
+
+.best-section {
+    background: #fff;
+}
+
+/*------------Barisal------------*/
+img.card-img-top.p-b.p-1.p-img {
+    margin-left: 25px;
+}
+
+.card-title a {
+    color: #492A60 !important;
+}
+
+a.ar {
+    color: #492A60;
+}
+
+/*------------Write Rivew------------*/
+
+.aaa {
+    margin-top: 4px;
+}
+
+/*------------Price Bike CSS------------*/
+a.nav-link.active.tushar {
+    background: #492A60;
+    color: #fff;
+}
+
+a.nav-link.srabone {
+    color: #000;
+}
+
+a.nav-link.srabone:hover {
+    background: #492A60;
+    color: #fff !important;
+}
+
+/*------------Used Bike CSS------------*/
+.card-body ul li a.used-a {
+    font-size: 12px;
+    padding: 5px;
+}
+
+.used-bike {
+    padding-bottom: 10px;
+}
+
+a.asd {
+    color: #616161;
+    font-size: 15px;
+    text-align: center;
+}
+
+/*------------Sell Bike CSS------------*/
+.sell-bike-section {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/*------------Responsive------------*/
+@media (min-width: 1025px) {}
+
+@media (max-width: 1024px) {
+
+
+    body.mobile-left>.wrapper {
+        margin-left: 300px;
+        margin-right: -300px;
+    }
+
+    body.mobile-right>.wrapper {
+        margin-right: 300px;
+        margin-left: -300px;
+    }
+
+    body>.wrapper {
+        transition: all 0.4s ease-in-out;
+        position: relative;
+    }
+}
+
+@media (max-width: 767px) {
+
+
+    .main {
+        padding: 200px 0;
+    }
+
+    .main h2 {
+        font-size: 2em;
+    }
+
+    /*--Top Bar*/
+    .logo {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 2px;
+    }
+
+    .input-group {
+        width: 100%;
+        margin: auto;
+    }
+
+    .social-icon {
+        width: 100%;
+        margin: auto;
+        margin-top: 5px;
+        text-align: center;
+        padding-right: 120px;
+    }
+
+    /*--Carosul--*/
+    span.carousel-control-prev-icon {
+        display: none;
+    }
+
+    span.carousel-control-next-icon {
+        display: none;
+    }
+
+    .carousel-item {
+        height: 325px !important;
+    }
+
+    /*--Comparision--*/
+    .card .shadow-sm .rounded {
+        width: 15rem !important;
+    }
+
+    .sm {
+        width: 100px;
+    }
+
+    /*--Footer--*/
+    .bottom-menu {
+        width: 100% !important;
+        margin: auto;
+    }
+
+    .bottom-menu ul li a {
+        padding: 0 5px;
+    }
+
+    /*--about Us--*/
+    .mar-botom {
+        margin-bottom: 90px;
+    }
+
+    .row {
+        padding: 0px;
+    }
+
+    /*--Slider--*/
+    section.slide-section.bg h2 {
+        color: #fff;
+        margin-top: 100px;
+        width: 80%;
+        line-height: 38px;
+        font-size: 30px;
+        margin-bottom: 13px;
+    }
+
+    select.browser-default.custom-select.select {
+        border: 1px solid #492A60;
+        height: 40px;
+        font-size: 10px;
+        outline-color: #492A60;
+        width: 50%;
+        margin-bottom: 5px;
+    }
+
+    button.btn.btn-danger.btn-lg.select-q {
+        height: 40px;
+        font-size: 10px;
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 479px) {
+    .sina-nav .widget-bar {
+        right: -250px;
+        width: 250px;
+    }
+
+    body.on-side {
+        margin-left: -250px;
+    }
+
+    body.mobile-left>.wrapper {
+        margin-left: 250px;
+        margin-right: -250px;
+    }
+
+    body.mobile-right>.wrapper {
+        margin-right: 250px;
+        margin-left: -250px;
+    }
+
+    .sina-nav.mobile-sidebar .navbar-collapse {
+        width: 250px;
+        left: -250px;
+    }
+}
+
+@media (max-width: 782px) {
+    .sina-nav.mobile-sidebar.wp-topbar .navbar-collapse {
+        top: 46px;
+    }
+
+    .sina-nav.wp-topbar .widget-bar {
+        top: 46px;
+    }
+}
+
+
+
+a {
+    text-decoration: none !important;
+}
+
+
+/*----NAvbar CSS----*/
+
+.navbar-brand img {
+    width: 50px;
+}
+
+a.nav-link {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 26px;
+    transition: .5s;
+}
+
+a.nav-link:hover {
+    background: #fff;
+    color: #000 !important;
+    border-radius: 5px;
+}
+
+
+@media only sereen and (max-width:767px) {
+    .navbar-nav.ml-auto {
+        background: rgba(0.0.0.0.5);
+    }
+
+    .navbar-toggler {
+        padding: 1px 5px;
+        font-size: 18px;
+        line-height: 0.3;
+        background: #fff;
+    }
+}
+
+.heading-text {
+    margin-top: 26 px;
+}
+
+/*select.browser-default.custom-select.select.height {
+    height: 40px;
+    font-size: 14px;
+}*/
+
+/* *************************************************** */
+/* *************************************************** */
+/* *************************************************** */
+/* *************************************************** */
+/* ********* Re-design style start from here ********* */
+/* *************************************************** */
+/* *************************************************** */
+/* *************************************************** */
+/* *************************************************** */
+
+/* Home page  */
+:root {
+    --color-primary: #492a60;
+    --color-secondary: #8f18eb;
+    --bg-primary: #f1f1f1;
+}
+
+.feature-card {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 0 5px 0px;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+}
+
+.compare-cards {
+    background: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 5px;
+    padding: 0 !important;
+    margin: 10px;
+    width: 48% !important;
+}
+
+.compare-card-body {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.418);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+/* Compare bike  start*/
+.c-bike-one,
+.c-bike-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.c-bike-one .c-bike-one-details,
+.c-bike-two .c-bike-two-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.c-bike-one img,
+.c-bike-two img {
+    width: 200px;
+}
+
+.c-bike-one .c-bike-title,
+.c-bike-two .c-bike-title {
+    margin: 0;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.c-bike-one .c-bike-price,
+.c-bike-two .c-bike-price {
+    margin: 0;
+    color: var(--color-secondary);
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.c-bike-one .rating-star,
+.c-bike-two .rating-star {
+    border: 3px solid #07af07;
+    border-radius: 999%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* Compare bike  end*/
+
+
+
+.vs-symbl {
+    background: var(--color-primary);
+    width: 50px;
+    height: 50px;
+    border-radius: 999%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.compare-card-button {}
+
+.compare-card-button button {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 0;
+    text-transform: capitalize;
+    box-shadow: none !important;
+}
+
+.compare-card-button button:hover {
+    box-shadow: none !important;
+    color: var(--color-secondary) !important;
+}
+
+.compare-card-button button span {}
+
+.compare-card-button button .vs-symbl {
+    margin: 0;
+    text-transform: uppercase;
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.review-row {
+    margin-top: 7rem !important;
+    display: flex;
+    justify-content: center;
+}
+
+.review-row .user-reviews {
+    display: flex;
+    background: #f1f1f1;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    margin: 7px;
+    padding: 30px 10px;
+    border-radius: 5px;
+}
+
+.review-row .user-reviews-two {
+    margin-top: -5rem;
+}
+
+
+/* Single Comepare Page  */
+.compare-bike-details-section {
+    background: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 5px;
+}
+
+.compare-page-card-title {
+    height: 250px;
+    display: flex;
+    align-items: center;
+}
+
+.compare-page-card {
+    height: 100% !important;
+    border-right: .5px solid rgba(128, 128, 128, 0.247);
+    border-left: .5px solid rgba(128, 128, 128, 0.247);
+    ;
+}
+
+.compareCheckBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.compare-item-ratings .active {
+    background-color: #07af07;
+    color: #fff;
+    animation: highlight 900ms 1 forwards;
+}
+
+@keyframes highlight {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.one-compare-card .c-bike-one-details p,
+.two-compare-card .c-bike-one-details p {
+    border: none !important;
+    height: 25px;
+}
+
+.form-check-input[type=checkbox]:checked:focus,
+.form-check-input:checked:focus,
+.form-check-input[type=checkbox]:checked {
+    background-color: var(--color-primary) !important;
+    border-color: var(--color-primary) !important;
+}
+
+.one-compare-card .rating-star,
+.two-compare-card .rating-star {
+    top: 1rem;
+    left: 7rem;
+}
+
+.one-compare-card,
+.two-compare-card {
+    border-top: .5px solid rgba(128, 128, 128, 0.247);
+    border-right: .5px solid rgba(128, 128, 128, 0.247);
+}
+
+.compare-bike-details-section .compare-bike-heading {
+    letter-spacing: 1.5px;
+    font-size: 18px;
+    border-bottom: .5px solid rgba(128, 128, 128, 0.247);
+    margin: 10px 0;
+}
+
+.compare-bike-details-section p span {
+    font-size: 28px;
+    font-weight: lighter;
+}
+
+.compare-item-details-child {
+    border: 2px solid #40d740;
+    width: 26px !important;
+    height: 26px !important;
+    border-radius: 99%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.compare-item-ratings h2,
+.compare-item-bike-name h2,
+.compare-item-feat-info h2,
+.compare-item-prefomance h2,
+.compare-item-chassis-susp h2,
+.compare-item-electrical h2,
+.compare-item-brakeInformation h2,
+.compare-item-keyFeatures h2 {
+    background: #ebebeb;
+    margin: 0;
+    padding: 7px 0;
+    color: var(--color-primary);
+    padding-left: 10px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.compare-rating-title,
+.one-bike-name-title,
+.one-features-title,
+.one-performance-title,
+.one-chassis-title,
+.one-electrical-title,
+.one-brakeInformation-title,
+.one-keyFeatures-title {
+    border-right: .5px solid rgba(128, 128, 128, 0.253);
+    border-left: .5px solid rgba(128, 128, 128, 0.253);
+}
+
+.two-ratings,
+.two-bike-name,
+.two-features,
+.two-performance,
+.two-chassis,
+.two-electrical,
+.two-brakeInformation,
+.two-keyFeatures {
+    border-right: .5px solid rgba(128, 128, 128, 0.253);
+    border-left: .5px solid rgba(128, 128, 128, 0.253);
+}
+
+.compare-rating-title p,
+.one-bike-name-title p,
+.one-features-title p,
+.one-performance-title p,
+.one-chassis-title p,
+.one-electrical-title p,
+.one-brakeInformation-title p,
+.one-keyFeatures-title p {
+    justify-content: start !important;
+    padding-left: 10px !important;
+    text-align: left !important;
+    font-weight: bold;
+}
+
+.compare-item .afterRating,
+.compare-item .afterBikeHeading,
+.compare-item .afterFeatInfo,
+.compare-item .afterPerformance {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.compare-item p:last-child {
+    border-bottom: .5px solid rgba(128, 128, 128, 0.253);
+}
+
+.compare-item p,
+.compare-item-details {
+    border-top: 0.5px solid rgba(128, 128, 128, 0.255);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 10px 0px;
+    height: 65px;
+    align-items: center;
+    text-align: center;
+}
+
+
+.compare-item .one-ratings,
+.compare-item .two-ratings,
+.compare-item .one-bike-name,
+.compare-item .two-bike-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.same-content {
+    background-color: yellow;
+    /* Change this to your desired background color */
+}
+
+/* Brand Page Style  */
+.brand-section {
+    padding-bottom: 8rem;
+}
+
+.brand-container .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand-container .col-md-2 {
+    width: 10% !important;
+    margin: 15px 30px !important;
+}
+
+.main-search-box {
+    background: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 5px;
+    margin: auto;
+    width: 48% !important;
+    margin-bottom: 3rem;
+    padding: 1rem;
+}
+
+.footer-section .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.compare-bike-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100% !important;
+}
+
+.compare-bike-page>.compare-cards {
+    width: 70% !important;
+}
+
+.compare-bike-page .c-bike-one img,
+.compare-bike-page .c-bike-two img {
+    width: 300px;
+}
+
+.compare-bike-page .compare-bike-one-dropdown,
+.compare-bike-page .compare-bike-two-dropdown {
+    margin-top: 1rem;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.compare-bike-page .compare-bike-one-dropdown option,
+.compare-bike-page .compare-bike-two-dropdown option {
+    border: none;
+    outline: none;
+}
+
+/* Offer page  */
+
+.checkboxes-for-offer-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 3rem;
+    padding: 15px 0;
+    border-radius: 5px;
+    box-shadow: rgb(0 0 0 / 0%) 0px 3px 6px, rgb(0 0 0 / 7%) 0px 3px 6px;
+}
+
+.checkboxes-for-offer-page .form-check {
+    margin: 0 10px;
+}
+
+.brand-and-topbike-section {
+    display: flex;
+    width: 100%;
+}
+
+.brand-and-topbike-section .brand-section {
+    width: 68%;
+}
+
+.brand-and-topbike-section .best-section,
+.feature-section-container .best-section {
+    width: 30%;
+    background-color: #ffffff00;
+}
+
+.brand-and-topbike-section .best-section .best-background,
+.feature-section-container .best-section .best-background {
+    background-color: #ffffff;
+}
+
+.feature-section-container {
+    display: flex;
+    justify-content: center;
+}
+
+.feature-section-container .feature-section-main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 68%;
+    justify-content: center;
+}
+
+.feature-section-container .feature-section-main .latest-bikein-bd {
+    width: 45%;
+    margin: 5px;
+}
+
+.custome-badge {
+    background-image: url(../images/discount.png);
+    position: absolute;
+    top: -10px;
+    right: -8px;
+
+}
+
+.custome-badge img {
+    width: 50px;
+}
+
+.custome-badge span {
+    position: absolute;
+    top: 3px;
+    bottom: 3px;
+    left: 3px;
+    right: 3px;
+    height: -webkit-fill-available;
+    border-radius: 99%;
+    background-color: #0a0a0a4b;
+}
+
+.custome-badge p {
+    position: absolute;
+    top: 13px;
+    left: 8px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.offer-brand-row {
+    margin: 30px 0;
+}
+
+
+.best-section .row {
+    margin-left: 0;
+}
+
+.slide-section {
+    height: 50vh !important;
+}
+
+.inside-form {
+    width: 100%;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.form-dropdown {
+    width: 100% !important;
+}
+
+.menu {
+    display: block;
+    position: relative;
+    cursor: pointer;
+}
+
+.menu-title {
+    display: block;
+    width: auto;
+    height: auto;
+    padding: 12px 20px;
+    background: #9dc852;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.3s background-color;
+}
+
+li {
+    list-style: none !important;
+}
+
+.form-dropdown-style {
+    display: flex !important;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+    margin-left: 0 !important;
+}
+
+.form-dropdown-style .col-md-2 {
+    width: 10%;
+}
+
+#bike-by-brand-model-button {
+    margin-top: 0 !important;
+}
+
+.menu-title:before {
+    content: "";
+    display: block;
+    height: 0;
+    border-top: 5px solid #9dc852;
+    border-left: 75px solid transparent;
+    /* Replaced ($menu_WIDTH / 2) with its value 75px */
+    border-right: 75px solid transparent;
+    /* Replaced ($menu_WIDTH / 2) with its value 75px */
+    border-bottom: 0 solid #dddddd;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 101;
+    transition: 0.2s 0.2s border-top ease-out, 0.3s border-top-color;
+}
+
+.menu-title:hover {
+    background: #8db842;
+}
+
+.menu-title:hover:before {
+    border-top-color: #8db842;
+}
+
+.menu:hover>.menu-title:before {
+    border-top-width: 0;
+    transition: 0.2s border-top-width ease-in, 0.3s border-top-color;
+}
+
+.menu-title:after {
+    content: "";
+    display: block;
+    height: 0;
+    border-left: 75px solid transparent;
+    /* Replaced ($menu_WIDTH / 2) with its value 75px */
+    border-right: 75px solid transparent;
+    /* Replaced ($menu_WIDTH / 2) with its value 75px */
+    border-bottom: 0 solid #ebebeb;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 101;
+    transition: 0.2s border-bottom ease-in;
+}
+
+.menu:hover>.menu-title:after {
+    border-bottom-width: 5px;
+    transition: 0.2s 0.2s border-bottom-width ease-out;
+}
+
+.menu-title_2nd {
+    background: #4e96b3;
+}
+
+.menu-title_2nd:hover {
+    background: #3e86a3;
+}
+
+.menu-title_2nd:before {
+    border-top-color: #4e96b3;
+}
+
+.menu-title_2nd:hover:before {
+    border-top-color: #3e86a3;
+}
+
+.menu-title_3rd {
+    background: #c97676;
+}
+
+.menu-title_3rd:hover {
+    background: #b96666;
+}
+
+.menu-title_3rd:before {
+    border-top-color: #c97676;
+}
+
+.menu-title_3rd:hover:before {
+    border-top-color: #b96666;
+}
+
+.menu-title_4th {
+    background: #dbab58;
+}
+
+.menu-title_4th:hover {
+    background: #cb9b48;
+}
+
+.menu-title_4th:before {
+    border-top-color: #dbab58;
+}
+
+.menu-title_4th:hover:before {
+    border-top-color: #cb9b48;
+}
+
+.menu-dropdown {
+    min-width: 100%;
+    padding: 15px 0;
+    position: absolute;
+    background: #ebebeb;
+    z-index: 100;
+    transition: 0.5s padding, 0.5s background;
+}
+
+.slider-title {
+    width: 100%;
+}
+
+.slider-title .col-md-6 {
+    width: 100% !important;
+}
+
+.slider-title h2 {
+    width: 100% !important;
+}
+
+.slider-title h2 strong {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-dropdown:after {
+    content: "";
+    display: block;
+    height: 0;
+    border-top: 5px solid #ebebeb;
+    border-left: 75px solid transparent;
+    /* Replaced ($menu_WIDTH / 2) with its value 75px */
+    border-right: 75px solid transparent;
+    /* Replaced ($menu_WIDTH / 2) with its value 75px */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 101;
+    transition: 0.5s border-top;
+}
+
+.menu:not(:hover)>.menu-dropdown {
+    padding: 4px 0;
+    background: #dddddd;
+    z-index: 99;
+}
+
+.menu:not(:hover)>.menu-dropdown:after {
+    border-top-color: #dddddd;
+}
+
+.menu:not(:hover)>.menu-title:after {
+    border-bottom-color: #dddddd;
+}
+
+.menu-dropdown>* {
+    overflow: hidden;
+    height: 30px;
+    padding: 5px 10px;
+    background: rgba(0, 0, 0, 0);
+    white-space: nowrap;
+    transition: 0.5s height cubic-bezier(.73, .32, .34, 1.5), 0.5s padding cubic-bezier(.73, .32, .34, 1.5), 0.5s margin cubic-bezier(.73, .32, .34, 1.5), 0.5s 0.2s color, 0.2s background-color;
+}
+
+.menu-dropdown>*:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.menu:not(:hover)>.menu-dropdown>* {
+    visibility: hidden;
+    height: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 0;
+    color: rgba(25, 25, 25, 0);
+    transition: 0.5s 0.1s height, 0.5s 0.1s padding, 0.5s 0.1s margin, 0.3s color, 0.6s visibility;
+    z-index: 99;
+}
+
+.hList {
+    width: auto !important;
+}
+
+.hList>* {
+    float: left;
+}
+
+.hList>*+* {
+    margin-left: 0;
+}
+
+.form-dpdn {
+    margin-left: 0 !important;
+    background: #e3e3e345;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.form-dpdn .brand-button,
+.form-dpdn .model-button {
+    background: #fff !important;
+    width: 45%;
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+.dpdwn-section {
+    width: 83% !important;
+}
+
+.brand-model-scearch {
+    font-size: 20px !important;
+    background: var(--color-primary) !important;
+    color: #fff !important;
+}
+
+
+/* blog page  */
+.blog-area .card-body {
+    margin: 1.5rem !important;
+    background: #ffffff;
+    margin-top: -2.5rem !important;
+    border-radius: 2px;
+    padding: 1rem !important;
+}
+
+.blog-area .read-mor-btn {
+    background: var(--color-primary) !important;
+    box-shadow: 0 4px 9px -4px var(--color-primary);
+}
+
+.blog-area .read-mor-btn:hover {
+    box-shadow: 0 8px 9px -4px rgba(121, 59, 202, 0.3), 0 4px 18px 0 rgba(90, 59, 202, 0.2) !important;
+}
+
+.blog-area .read-mor-btn:focus,
+.blog-area .read-mor-btn:active {
+    box-shadow: 0 0 0 0.2rem rgb(169 0 255 / 50%) !important;
+}
+
+
+/* Review page  */
+#review_list_section .row {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#review_list_section .row .review-card {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#review_list_section .row .review-card div {
+    width: 100% !important;
+}
+
+.load-more-button {
+    width: 10rem !important;
+    color: #fff !important;
+}
+
+img.loader-image {
+    width: 10rem !important;
+}
+
+.hr-tag {
+    margin: 1rem 0;
+    color: inherit;
+    border: 0;
+    border-top: 1px solid;
+    opacity: .25;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+
+
+/**************************************************************
+***************************************************************
+***************************************************************
+***************************************************************
+***************************Responsive**************************
+***************************************************************
+***************************************************************
+***************************************************************
+***************************************************************/
+/* PC  */
+@media only screen and (max-width: 1024px) {
+
+    .brand-container .row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .brand-container .col-md-2 {
+        width: 13% !important;
+        margin: 15px 30px !important;
+    }
+
+    .brand-container .col-md-2 .card {
+        width: 9rem !important;
+    }
+
+
+    /* offer page  */
+    .offer-bike-card {
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 !important;
+    }
+
+    .offer-bike-card .col-md-8,
+    .offer-bike-card .col-md-4 {
+        width: 100% !important;
+    }
+
+    .slider-title h2 strong {
+        font-size: 30px;
+    }
+
+    .menu-title {
+        font-size: 16px;
+    }
+
+    .feature-section-container .feature-section-main {
+        width: 100%;
+    }
+
+    .feature-section-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .brand-and-topbike-section .best-section,
+    .feature-section-container .best-section {
+        width: 100%;
+    }
+
+    .feature-section-container .feature-section-main .latest-bikein-bd {
+        width: 100%;
+    }
+
+    .feature-section-container .feature-section-main .latest-bikein-bd .no-gutters {
+        margin: 0 !important;
+    }
+
+    .feature-section-container .feature-section-main .latest-bikein-bd .card-body button {
+        font-size: 12px;
+        margin-top: 5px;
+        width: 100%;
+    }
+
+    .brand-and-topbike-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .brand-section .offer-brand-row {
+        display: flex;
+        justify-content: center;
+    }
+
+    .brand-section .offer-brand-row .col-md-3 {
+        width: 25%;
+    }
+
+    .brand-and-topbike-section .brand-section {
+        width: 100%;
+    }
+
+
+    /* compare main page  */
+    .compare-bike-page .c-bike-one img,
+    .compare-bike-page .c-bike-two img {
+        width: 250px;
+    }
+
+
+    /* .review-area */
+    .review-section .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .review-section .review-left {
+        width: 100%;
+        order: 2;
+    }
+
+    .review-section .review-right {
+        width: 100%;
+    }
+
+    .review-section .row {
+        display: flex;
+        flex-direction: row !important;
+    }
+
+    .select-bike-section {
+        margin: 0 !important;
+    }
+
+    #review_list_section .row {
+        margin: 0 !important;
+    }
+
+}
+
+/* Tab  */
+@media only screen and (max-width: 768px) {
+
+    .compare-cards {
+        width: 100% !important;
+    }
+
+    .review-row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .review-row .user-reviews {
+        width: 100% !important;
+    }
+
+    .review-row .user-reviews-two {
+        margin-top: 7px !important;
+    }
+
+    /* Brand page  */
+
+    .brand-container .row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .brand-container .col-md-2 {
+        width: 20% !important;
+        margin: 15px 30px !important;
+    }
+
+    .brand-section .offer-brand-row .col-md-3 {
+        width: 32%;
+    }
+
+
+    .brand-container .col-md-2 .card {
+        width: 8.3rem !important;
+    }
+
+    .form-dpdn .brand-button,
+    .form-dpdn .model-button {
+        font-size: 16px;
+    }
+
+    .brand-model-scearch {
+        font-size: 14px !important;
+    }
+
+    /* compare main page  */
+    .compare-card-body {
+        flex-direction: column;
+    }
+
+    .vs-symbl {
+        margin: 2rem 0;
+    }
+}
+
+
+/* Mobile  */
+@media only screen and (max-width: 515px) {
+
+    .compare-card-body {
+        flex-direction: column !important;
+    }
+}
+
+/* Mobile Mini  */
+@media only screen and (max-width: 425px) {
+    .cardTitle p {
+        font-size: 10.5px;
+        padding-top: 5px;
+    }
+
+    .footerArea {
+        font-size: 10px;
+    }
+
+    .ratingAmount {
+        font-size: 10px;
+    }
+
+    h5.feature-title {
+        font-size: 10px;
+
+    }
+
+    .bottom-menu ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .bottom-menu ul li {
+        display: inline-block;
+        border: none;
+    }
+
+    /* brnad page  */
+    .brand-container .col-md-2 {
+        width: 30% !important;
+        margin: 15px 30px !important;
+    }
+
+    /* offer page  */
+    .brand-section .offer-brand-row .col-md-3 {
+        width: 100%;
+    }
+
+    .brand-and-topbike-section .brand-section {
+        width: 60%;
+    }
+
+    .form-dpdn {
+
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form-dpdn .brand-button,
+    .form-dpdn .model-button {
+        width: 100%;
+        margin: 5px 0 !important;
+        font-size: 14px;
+    }
+
+    .form-dpdn .col-md-2 {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .slide-section {
+        height: 57vh !important;
+    }
+
+    .checkboxes-for-offer-page {
+        width: 100%;
+    }
+
+    .checkboxes-for-offer-page.form-check-label {
+        font-size: 14px;
+    }
+
+
+    /* comapare main page  */
+    .compare-bike-page .c-bike-one img,
+    .compare-bike-page .c-bike-two img {
+        width: 190px;
+    }
+
+    .vs-symbl {
+        font-size: 16px;
+        width: 35px;
+        height: 35px;
+        margin: 10px 0;
+    }
+
+    /* single compare page  */
+    .compare-item-heading .afterRating {
+        display: block;
+    }
+
+    .c-bike-one,
+    .c-bike-two {
+        margin: 1.5rem 0;
+    }
+
+    .compare-bike-details-section {
+        margin-top: 3rem;
+    }
+
+    .compare-item p,
+    .compare-item-details {
+        font-size: 13px;
+    }
+}
