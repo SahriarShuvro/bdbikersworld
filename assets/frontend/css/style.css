@@ -3284,3 +3284,12 @@ img.loader-image {
         font-size: 13px;
     }
 }
+
+
+
+.owl-carousel .owl-item img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    height: 215px;
+}
