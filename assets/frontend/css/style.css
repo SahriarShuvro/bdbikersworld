@@ -2099,6 +2099,36 @@ a.nav-link:hover {
     --bg-primary: #f1f1f1;
 }
 
+.card {
+    overflow: hidden;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+.card-body {
+    padding: 1rem !important;
+}
+
+.card-title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 16px !important;
+}
+
+.page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color: var(--color-primary);
+    border-color: var(--color-primary);
+}
+
+.btn-outline-primary {
+    color: var(--color-primary);
+    outline-color: var(--color-primary);
+    border-color: var(--color-primary);
+}
+
 .feature-card {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 0 5px 0px;
 }
@@ -2178,8 +2208,6 @@ a.nav-link:hover {
     left: 0;
 }
 
-/* Compare bike  end*/
-
 
 
 .vs-symbl {
@@ -2225,6 +2253,9 @@ a.nav-link:hover {
     justify-content: center;
     font-weight: bold;
 }
+
+/* Compare bike  end*/
+
 
 .review-row {
     margin-top: 7rem !important;
